@@ -1684,7 +1684,7 @@ class Slot(Primitive):
         self.end = tuple(map(add, self.end, (x_offset, y_offset)))
 
 
-class TestRecord(Primitive):
+class TestRecords(Primitive):
     """ Netlist Test record
     """
 
